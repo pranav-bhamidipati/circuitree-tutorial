@@ -4,7 +4,7 @@ from bistability_parallel import ParallelBistabilityTree
 
 
 def main(
-    n_steps: int = 50_000,
+    n_steps: int = 10_000,
     n_threads: int = 8,
     expensive: bool = True,
     save_dir: str | Path = Path("./tree-backups"),
